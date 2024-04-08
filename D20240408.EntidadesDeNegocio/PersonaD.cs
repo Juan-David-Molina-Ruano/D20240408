@@ -33,6 +33,6 @@ namespace D20240408.EntidadesDeNegocio
         public byte EstatusD { get; set; }
 
         [Display(Name = "Comentario")]
-        public string ComentarioD { get; set; }
+        public string? ComentarioD { get; set; } 
     }
 }
